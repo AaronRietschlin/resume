@@ -1,0 +1,74 @@
+sidebar:
+  about: False
+  education: True
+
+  name: Aaron Rietschlin
+  tagline: Director of Engineering
+  avatar: # place a 100x100 image in assets/images/ and add filename here
+
+  email: aaron.riets@gmail.com
+  linkedin: rietschlin13
+  github: AaronRietschlin
+  twitter:
+  stack-overflow:
+
+  languages:
+    - idiom: English
+      level: Native
+
+  interests:
+    - item: # optional
+      link:
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Engineering leader with 8+ years at Disney+, including 4 years as Director of Engineering.
+    Passionate about building high-performing teams, scaling platform infrastructure, and
+    delivering exceptional digital experiences to millions of users worldwide.
+
+education:
+  - degree: B.S. Computer & Information Science
+    university: Ohio State University
+    time: 2007 - 2011
+    details: ""
+
+experiences:
+  - role: Director of Engineering
+    time: 2022 - Present
+    company: Disney+
+    details: |
+      Leading engineering teams responsible for building and scaling Disney+ platform features.
+      Driving technical strategy, hiring, and cross-functional collaboration across product and design.
+
+  - role: Senior Software Engineer  # TODO: update with actual previous role
+    time: 2018 - 2022
+    company: Disney+
+    details: |
+      To be filled in.
+
+  - role: "[Previous Role]"         # TODO: fill in pre-Disney+ experience
+    time: "[Years]"
+    company: "[Company]"
+    details: |
+      To be filled in.
+
+projects:
+  title: Projects
+  intro: ""
+  assignments:
+    - title: ""
+      link: ""
+      tagline: ""
+
+skills:
+  title: Skills & Proficiency
+  toolset:
+    - name: Engineering Leadership
+      level: 98%
+    - name: Team Building & Hiring
+      level: 95%
+    - name: Platform & Infrastructure
+      level: 85%
+    - name: Agile / Product Delivery
+      level: 90%

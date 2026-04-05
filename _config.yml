@@ -1,0 +1,18 @@
+title: Aaron Rietschlin — Resume
+url: "https://aaronrietschlin.github.io"
+baseurl: "/resume"
+
+remote_theme: sharu725/online-cv
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
