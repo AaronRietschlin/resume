@@ -34,14 +34,3 @@ All resume content lives in `_data/data.yml`. Edit that file to update:
 ## Deployment
 
 Pushes to `main` automatically deploy to GitHub Pages via the workflow in `.github/workflows/deploy.yml`.
-
-### First-time GitHub setup
-
-1. Create a new repo at https://github.com/new named `resume`
-2. Enable GitHub Pages in repo Settings → Pages → Source: **GitHub Actions**
-3. Push this repo:
-
-```bash
-git remote add origin https://github.com/AaronRietschlin/resume.git
-git push -u origin main
-```
