@@ -1,6 +1,6 @@
 title: Aaron Rietschlin — Resume
-url: "https://aaronrietschlin.github.io"
-baseurl: "/resume"
+url: "https://aaron.rietschlin.com"
+baseurl: ""
 
 remote_theme: sharu725/online-cv
 theme_skin: ceramic
