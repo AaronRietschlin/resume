@@ -3,8 +3,8 @@ sidebar:
   education: True
 
   name: Aaron Rietschlin
-  tagline: Director of Engineering
-  avatar: # place a 100x100 image in assets/images/ and add filename here
+  tagline: Director of Engineering, Android
+  avatar: headshot.jpg
 
   email: aaron.riets@gmail.com
   linkedin: rietschlin13
@@ -17,41 +17,75 @@ sidebar:
       level: Native
 
   interests:
-    - item: # optional
+    - item:
       link:
 
 career-profile:
   title: Career Profile
   summary: |
-    Engineering leader with 8+ years at Disney+, including 4 years as Director of Engineering.
-    Passionate about building high-performing teams, scaling platform infrastructure, and
-    delivering exceptional digital experiences to millions of users worldwide.
+    Engineering leader with 14+ years of Android experience, the last 8 at Disney, where I grew
+    from developer #6 on what became Disney+ into the Director running all Android development.
+    I lead a 40-person org shipping to hundreds of millions of active installs across phones,
+    tablets, TVs, cars, VR headsets, and foldables, all from a single codebase. I stay close to
+    the technical work, still the first person to load the app when something breaks, and I use
+    AI tooling daily to keep the team moving faster. Prior to Disney, I built Android practices
+    from scratch at companies ranging from startups to Fortune 500 companies.
 
 education:
-  - degree: B.S. Computer & Information Science
-    university: Ohio State University
+  - degree: B.S. Computer and Information Science
+    university: The Ohio State University
     time: 2007 - 2011
     details: ""
 
 experiences:
-  - role: Director of Engineering
-    time: 2022 - Present
-    company: Disney+
+  - role: Director of Engineering, Android
+    time: February 2022 - Present
+    company: The Walt Disney Company — Columbus, Ohio
     details: |
-      Leading engineering teams responsible for building and scaling Disney+ platform features.
-      Driving technical strategy, hiring, and cross-functional collaboration across product and design.
+      - Own all Android development for Disney+: a single Kotlin codebase serving phones, tablets, TVs, cars, VR headsets, and foldables to hundreds of millions active installs globally.
+      - Manage a 40-engineer org across four pillars (Playback, Platform, Content Discovery, Commerce) distributed between UCAN and EMEA, with 6–10 direct reports.
+      - Designed and executed a team reorganization in 2023 that unified Android and iOS structures for the first time, resolved chronic timezone friction, and connected every IC to a manager on their own pillar. VP described the result as the template for the new org culture.
+      - Drove migration from a rigid, grid-based layout to a flexible, server-influenced UI system, unlocking the one-app strategy: Hulu on Disney+, then ESPN+, then the full ESPN flagship launch in August 2025.
+      - Achieved a 52% improvement in app startup time.
+      - Delivered ESPN on Disney+ (August 2025), the company's top initiative that year — Android represented 45% of all ESPN tile views at launch.
+      - Led the Meta Quest VR launch, bringing Disney+ to Quest Pro, Quest 3, and Quest 3S on a compressed timeline. Currently directing a fully 3D spatialized experience.
+      - Replaced legacy Google Play and Amazon IAP with direct billing via Project Bookworm (Google April 2025, Amazon August 2025), shifting meaningful subscription revenue to the D2C channel.
+      - Introduced parallel development and technical tracks for the first time at Disney.
+      - Integrated Claude Code and Cursor as standard pre-PR tools, reducing review overhead and surfacing issues earlier in the development cycle.
+      - Shipped Disney's ad-supported tier, IMAX Enhanced / DTS:X (CES 2024 finalist, Digital Entertainment Group award), dynamic splash screens, mobile preloads, and Atmos by default.
+      - Championed Disney's first Droidcon NYC sponsorship. Nominated for Disney's IGNITE leadership series.
 
-  - role: Senior Software Engineer  # TODO: update with actual previous role
-    time: 2018 - 2022
-    company: Disney+
+  - role: Tech Lead & Engineering Manager
+    time: January 2018 - February 2022
+    company: The Walt Disney Company — Columbus, Ohio
     details: |
-      To be filled in.
+      - Joined as developer #6 on the project that became Disney+. By launch in November 2019, owned the largest feature scope: Detail Pages, Collections, Onboarding, Accounts, and Profiles. One of two engineers who demoed the app to executives pre-launch; one of two present for launch-day operations.
+      - Built the Disney+ in-app purchase and paywall system from the ground up. That implementation has generated over $2B in revenue since launch.
+      - Reduced unacknowledged Google Play purchases from ~2% to 0.35%, resolving a compliance risk where Google automatically refunded all unacknowledged transactions.
+      - Led the Onboarding, Commerce and Identity team from Disney+ launch through 2022, including the Star international integration and the Docomo Japan launch.
+      - Managed integration of the Hulu Android team post-merger, retaining ~60% of incoming engineers through a turbulent transition.
+      - Led the NHL Android app through the 2018 Playoffs; built ESPN+ in-app purchases the following summer.
 
-  - role: "[Previous Role]"         # TODO: fill in pre-Disney+ experience
-    time: "[Years]"
-    company: "[Company]"
+  - role: Senior Android Developer
+    time: August 2017 - December 2017
+    company: JPMorgan Chase — Columbus, Ohio
     details: |
-      To be filled in.
+      - Led a 3-person development team on Chase Mobile.
+      - Introduced the team's first structured testing strategy into a codebase with zero test coverage.
+
+  - role: Lead Android Developer
+    time: October 2015 - August 2017
+    company: Abercrombie & Fitch — Columbus, Ohio
+    details: |
+      - Led architecture and development for both the Abercrombie & Fitch and Hollister Android apps, working directly with product and business partners on the roadmap.
+      - Built a testing framework that took code coverage from 0% to ~60%. Maintained 99% crash-free rates across both apps. Owned the CI pipeline and release process end to end.
+
+  - role: Senior Android Developer
+    time: January 2012 - October 2015
+    company: Duet Health — Columbus, Ohio
+    details: |
+      - Defined the Android architecture and development process used across all company apps.
+      - Led a team of 3 developers and shipped 20+ applications to Google Play.
 
 projects:
   title: Projects
@@ -64,11 +98,15 @@ projects:
 skills:
   title: Skills & Proficiency
   toolset:
-    - name: Engineering Leadership
+    - name: Engineering Leadership & Org Design
       level: 98%
-    - name: Team Building & Hiring
-      level: 95%
-    - name: Platform & Infrastructure
-      level: 85%
-    - name: Agile / Product Delivery
+    - name: Kotlin & Android Development
+      level: 96%
+    - name: Jetpack Compose & Modern Architecture
       level: 90%
+    - name: Android Multi-Platform (TV, Auto, VR, Foldables)
+      level: 93%
+    - name: AI-Assisted Development (Claude Code, Cursor)
+      level: 88%
+    - name: Hiring & Cross-Functional Program Management
+      level: 95%
