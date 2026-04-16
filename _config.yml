@@ -3,6 +3,7 @@ url: "https://aaronrietschlin.github.io"
 baseurl: "/resume"
 
 remote_theme: sharu725/online-cv
+theme_skin: ceramic
 
 sass:
   sass_dir: _sass
